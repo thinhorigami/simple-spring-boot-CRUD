@@ -30,6 +30,7 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok:1.18.28")
 
     implementation("org.springframework.boot:spring-boot-starter-web:3.1.2")
+    implementation("org.springframework.boot:spring-boot-starter-security:3.1.2")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa:3.1.2")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test:3.1.2")

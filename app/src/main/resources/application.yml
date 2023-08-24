@@ -1,0 +1,11 @@
+spring:
+    datasource:
+      username: sa
+      password: r00t:R00T
+      url: jdbc:sqlserver://localhost:1433;database=PTPM_FINALLY_JAVA_SOF306;trustServerCertificate=true
+      driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    jpa:
+        show-sql: true
+        hibernate:
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
