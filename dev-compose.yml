@@ -1,0 +1,11 @@
+
+services:
+    db:
+        image: mcr.microsoft.com/mssql/server
+        environment:
+            ACCEPT_EULA: y
+            MSSQL_SA_PASSWORD: r00t:R00T
+        ports:
+            -   1433:1433
+        volumes:
+            -   C:\.thinhorigami\.m03w\temp:/var/mssql/data
